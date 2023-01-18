@@ -9,7 +9,7 @@
 <body>
 	<%
 		//스크립트릿->자바코드를 사용할 수 있도록 만들어주는 영역
-		String str="테스트";
+		String str="김민지";
 		//document.write("str="+str)
 		System.out.println("str="+str);//디버깅할 때 쓴다.
 		out.println("<h1>"+str+"</h1>");//웹에서 출력
