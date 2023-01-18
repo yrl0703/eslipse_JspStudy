@@ -13,7 +13,8 @@
 		//document.write("str="+str)
 		System.out.println("str="+str);//디버깅할 때 쓴다.
 		out.println("<h1>"+str+"</h1>");//웹에서 출력
-		//<script></script>태그 사용 불가
 	 %>
+	 <hr>
+	 str출력 =<%=str%>
 </body>
 </html>
