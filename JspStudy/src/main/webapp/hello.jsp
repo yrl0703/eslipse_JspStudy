@@ -10,9 +10,9 @@
 	<%
 		//스크립트릿->자바코드를 사용할 수 있도록 만들어주는 영역
 		String str="김민지";
-		//System.out.println("str="+str);//디버깅할 때 쓴다.
+		//document.write("str="+str)
+		System.out.println("str="+str);//디버깅할 때 쓴다.
 		out.println("<h1>"+str+"</h1>");//웹에서 출력
-		//document.write("<h1>"+hello+"<h1>"); 자바스크립트언어 사용 불가
 		//<script></script>태그 사용 불가
 	 %>
 </body>
